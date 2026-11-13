@@ -10,6 +10,15 @@ def show_menu():
 def listProducts():
     print("\nYou Chose Option 1.")
 #####################################################
+def findProducts():
+    print("\nYou Chose Option 2.")
+#####################################################
+def removeProducts():
+    print("\nYou Chose Option 3.")
+#####################################################
+def findTotalValue():
+    print("\nYou Chose Option 4.")
+#####################################################
 
 def main():
     running = True
@@ -19,11 +28,11 @@ def main():
         if choice == "1":
             listProducts()
         elif choice == "2":
-            print("\nYou Chose Option 2.")
+            findProducts()
         elif choice == "3":
-            print("\nYou Chose Option 3.")
+            removeProducts()
         elif choice == "4":
-            print("\nYou Chose Option 4.")
+            findTotalValue()
         elif choice == "0":
             running = False
         else:
