@@ -7,13 +7,17 @@ def show_menu():
     print("4. Show total value")
     print("0. Exit")
 #####################################################
+def listProducts():
+    print("\nYou Chose Option 1.")
+#####################################################
+
 def main():
     running = True
     while running:
         show_menu()
         choice = input("Enter an Option: ")
         if choice == "1":
-            print("\nYou Chose Option 1.")
+            listProducts()
         elif choice == "2":
             print("\nYou Chose Option 2.")
         elif choice == "3":
